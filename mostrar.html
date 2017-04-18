@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>prueba</title>
+</head>
+<body>
+    <div class="container" style="width: 100%;">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Lista de entrada de madera en rollo</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Si no aparece el registro que busca, agréguelo</h3>
+                        </div>
+                        <div class="panel-body">
+                            <table class="table-condensed">
+                                <tr>
+                                    <td><a href="#vResumen" class="btn btn-success" data-toggle="modal">Consultar resumen</a></td>
+                                    <td><a href="#vProveedor" class="btn btn-success" data-toggle="modal">Consultar entradas por proveedor</a></td>
+                                    <td><a href="#vProveedor_fecha" class="btn btn-success" data-toggle="modal">Consultar por proveedor y fecha</a></td>
+                                    <td>
+                                        <input type="button" id="mostrar_ocultar" name="mostrar_ocultar" value="Modificar/Eliminar datos">
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table id="tabla" class="display cell-border" cellspacing="0" width="100%">
+                                <thead>
+                                    <tr>
+                                        <th>N°</th>
+                                        <th>Fecha</th>
+                                        <th>Proveedor</th>
+                                        <th>Chofer</th>
+                                        <th>Registró</th> <!-- 5 -->
+                                        <th>piezas Primario</th>
+                                        <th>Vol. Prim</th>
+                                        <th>piezas Secu</th>
+                                        <th>Vol. Secu</th>
+                                        <th>piezas Terc</th><!-- 10 -->
+                                        <th>Vol. Terc</th>
+                                        <th>Total piezas</th>
+                                        <th>Vol. total</th>
+                                        <th>Costo total</th>
+                                        <th>Modificar</th><!-- 15 -->
+                                        <th>Eliminar</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>enlace 1</td>
+                                        <td>enlace 2</td>
+                                        <td>enlace 3</td>
+                                        <td>enlace 4</td>
+                                        <td>enlace 5</td>
+                                        <td>enlace 6</td>
+                                        <td>enlace 7</td>
+                                        <td>enlace 8</td>
+                                        <td>enlace 9</td>
+                                        <td>enlace 10</td>
+                                        <td>enlace 11</td>
+                                        <td>enlace 12</td>
+                                        <td>enlace 13</td>
+                                        <td>enlace 14</td>
+                                        <td>enlace 15</td>
+                                        <td>enlace 16</td>
+                                    </tr>
+                                    <tr>
+                                        <td>celda 1</td>
+                                        <td>celda 2</td>
+                                        <td>celda 3</td>
+                                        <td>celda 4</td>
+                                        <td>celda 5</td>
+                                        <td>celda 6</td>
+                                        <td>celda 7</td>
+                                        <td>celda 8</td>
+                                        <td>celda 9</td>
+                                        <td>celda 10</td>
+                                        <td>celda 11</td>
+                                        <td>celda 12</td>
+                                        <td>celda 13</td>
+                                        <td>celda 14</td>
+                                        <td>celda 15</td>
+                                        <td>celda 16</td>
+                                    </tr>
+                                    <tr>
+                                        <td>celda 1</td>
+                                        <td>celda 2</td>
+                                        <td>celda 3</td>
+                                        <td>celda 4</td>
+                                        <td>celda 5</td>
+                                        <td>celda 6</td>
+                                        <td>celda 7</td>
+                                        <td>celda 8</td>
+                                        <td>celda 9</td>
+                                        <td>celda 10</td>
+                                        <td>celda 11</td>
+                                        <td>celda 12</td>
+                                        <td>celda 13</td>
+                                        <td>celda 14</td>
+                                        <td>celda 15</td>
+                                        <td>celda 16</td>
+                                    </tr>
+                                    <tr>
+                                        <td>celda 1</td>
+                                        <td>celda 2</td>
+                                        <td>celda 3</td>
+                                        <td>celda 4</td>
+                                        <td>celda 5</td>
+                                        <td>celda 6</td>
+                                        <td>celda 7</td>
+                                        <td>celda 8</td>
+                                        <td>celda 9</td>
+                                        <td>celda 10</td>
+                                        <td>celda 11</td>
+                                        <td>celda 12</td>
+                                        <td>celda 13</td>
+                                        <td>celda 14</td>
+                                        <td>celda 15</td>
+                                        <td>celda 16</td>
+                                    </tr>
+                                    <tr>
+                                        <td>celda 1</td>
+                                        <td>celda 2</td>
+                                        <td>celda 3</td>
+                                        <td>celda 4</td>
+                                        <td>celda 5</td>
+                                        <td>celda 6</td>
+                                        <td>celda 7</td>
+                                        <td>celda 8</td>
+                                        <td>celda 9</td>
+                                        <td>celda 10</td>
+                                        <td>celda 11</td>
+                                        <td>celda 12</td>
+                                        <td>celda 13</td>
+                                        <td>celda 14</td>
+                                        <td>celda 15</td>
+                                        <td>celda 16</td>
+                                    </tr>
+                                    <tr>
+                                        <td>celda 1</td>
+                                        <td>celda 2</td>
+                                        <td>celda 3</td>
+                                        <td>celda 4</td>
+                                        <td>celda 5</td>
+                                        <td>celda 6</td>
+                                        <td>celda 7</td>
+                                        <td>celda 8</td>
+                                        <td>celda 9</td>
+                                        <td>celda 10</td>
+                                        <td>celda 11</td>
+                                        <td>celda 12</td>
+                                        <td>celda 13</td>
+                                        <td>celda 14</td>
+                                        <td>celda 15</td>
+                                        <td>celda 16</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="agregar_element">
+                                <input type="button" class="btn btn-primary" value="Registrar entrada" onClick=" window.location.href = '/aserradero/EntradaMaderaRolloController?action=nuevo'">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type='text/javascript' src="mostrar_ocultar.js"></script>
+</body>
+</html>
